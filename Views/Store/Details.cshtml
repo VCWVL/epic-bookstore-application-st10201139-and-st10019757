@@ -1,0 +1,80 @@
+﻿@model EpicBookstoreSprint.Models.Books
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div class="row">
+<div class="col-5">
+        <div>
+            <h4>Books</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Title)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Title)
+                </dd>
+              
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Language)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Language)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.ISBN)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.ISBN)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.DatePublished)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.DatePublished)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Price)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Price)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Author)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Author)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Description)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+
+            </dl>
+        </div>
+        <div>
+            <a asp-action="" asp-route-id="@Model?.Id" class="btn btn-primary store-btn ">Add to cart</a> |
+            <a asp-action="Index" class="btn btn-warning"><i class="fa-solid fa-arrow-left"></i> Back</a>
+        </div>
+
+</div>
+<div class="col-4">
+        @if (Model.ImageData != null && Model.ImageData.Length > 0)
+        {
+            string imageBase64 = Convert.ToBase64String(Model.ImageData);
+            string imageSrc = $"data:image;base64,{imageBase64}";
+            <img src="@imageSrc" class="w-100"  />
+
+        }
+        else
+        {
+            <span>No Image Available</span>
+        }
+</div>
+</div>

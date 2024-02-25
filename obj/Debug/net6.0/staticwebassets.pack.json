@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\EpicBookstoreSprint.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\travi\\source\\repos\\EpicBookstoreSprint\\wwwroot\\css\\MyCss.css",
+      "PackagePath": "staticwebassets\\css\\MyCss.css"
+    },
+    {
       "Id": "C:\\Users\\travi\\source\\repos\\EpicBookstoreSprint\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

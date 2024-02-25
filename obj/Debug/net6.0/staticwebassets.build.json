@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UQRfZtYsJ9OjsdmD3vuvfNoLNvdg6fiWEq+CLkRO7hg=",
+  "Hash": "NwBR8aP4Fw6AcTZ0h7I6Qo0+YtLAL1GuaIXH0HjP4fU=",
   "Source": "EpicBookstoreSprint",
   "BasePath": "_content/EpicBookstoreSprint",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\travi\\source\\repos\\EpicBookstoreSprint\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EpicBookstoreSprint.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\travi\\source\\repos\\EpicBookstoreSprint\\wwwroot\\css\\MyCss.css",
+      "SourceId": "EpicBookstoreSprint",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\travi\\source\\repos\\EpicBookstoreSprint\\wwwroot\\",
+      "BasePath": "_content/EpicBookstoreSprint",
+      "RelativePath": "css/MyCss.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\MyCss.css"
     },
     {
       "Identity": "C:\\Users\\travi\\source\\repos\\EpicBookstoreSprint\\wwwroot\\css\\site.css",
