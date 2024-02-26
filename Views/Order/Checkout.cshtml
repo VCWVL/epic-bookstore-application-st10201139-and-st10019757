@@ -1,0 +1,10 @@
+﻿@model Order
+
+<form asp-action="Checkout" method="post" class="mb-3" role="form">
+    <h4>Please Confirm your purchase</h4>
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="mb-3">
+        <input type="submit" class="btn btn-primary" value="complete Order" />
+    </div>
+</form>

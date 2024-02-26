@@ -15,5 +15,8 @@ namespace EpicBookstoreSprint.Data
         }
 
         public DbSet<Books> Book { get; set; } = default!;
+        public DbSet<CartItems> CartItem { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
     }
 }

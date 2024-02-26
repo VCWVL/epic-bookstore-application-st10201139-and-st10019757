@@ -1,12 +1,27 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using EpicBookstoreSprint.Data;
+using EpicBookstoreSprint.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<EpicBookstoreContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("EpicBookstoreSprintContext") ?? throw new InvalidOperationException("Connection string 'EpicBookstoreSprintContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+builder.Services.AddScoped<Cart>(sp => Cart.GetCart(sp));
+
+builder.Services.AddDistributedMemoryCache();
+
+builder.Services.AddSession(options =>
+{
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+  //  options.IdleTimeout = TimeSpan.FromSeconds(10);
+});
 
 var app = builder.Build();
 
@@ -24,6 +39,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",

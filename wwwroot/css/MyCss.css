@@ -28,3 +28,9 @@ a-cleanup:hover{
     background-color: forestgreen;
     border: 1px solid forestgreen;
 }
+
+.small-book-image {
+    max-width: 50px; /* Adjust the value to your preference */
+    max-height: 50px; /* Adjust the value to your preference */
+    /* You can also use width and height properties if you want fixed dimensions */
+}

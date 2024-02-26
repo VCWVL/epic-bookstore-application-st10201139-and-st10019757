@@ -1,0 +1,75 @@
+﻿@model EpicBookstoreSprint.Models.Cart
+
+<h1>Cart</h1>
+
+@if (Model.cartItems.Count > 0)
+{
+    <table class="table">
+        <thread>
+            <tr>
+                <th></th>
+                <th>Book</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Remove</th>
+
+            </tr>
+
+        </thread>
+        <tbody>
+            @foreach (var item in Model.cartItems)
+            {
+                var bookTotal = item.books.Price * item.Quantity;
+                <tr>
+                    <td>
+                     <a class="a-cleanup" asp-controller="Store" asp-action="Details" asp-route-id="@item.Id"><img src="data:image/png;base64,@Convert.ToBase64String(item.books.ImageData)" alt="Book Image" class="small-book-image"> </a>
+                    </td>
+                    <td>
+                  <a class="a-cleanup" asp-controller="Store" asp-action="Details" asp-route-id="@item.Id">@item.books.Title </a>
+                    </td>
+                    <td>
+                        @bookTotal.ToString("c");
+                    </td>
+                    <td>
+                        <a asp-controller="Cart" asp-action="ReduceQuantity" asp-route-id="@item.books.Id"><i class="fa-solid fa-minus"></i></a>
+                        <span class="badge bg-primary"> @item.Quantity</span>
+                        <a asp-controller="Cart" asp-action="IncreaseQuantity" asp-route-id="@item.books.Id"><i class="fa-solid fa-plus"></i></a>
+                    </td>
+                    <td>
+                        <a asp-controller="Cart" asp-action="RemoveFromCart" asp-route-id="@item.books.Id" class="text-danger"><i class="fa-solid fa-xmark"></i></a>
+                    </td>
+                </tr>
+            }
+
+         
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td class="text-right">
+                <strong> Total</strong>
+
+            </td>
+            <td>
+                <strong>@Model?.GetCartTotal().ToString("c")</strong>
+            </td>
+            <td></td>
+            <td></td>
+
+        </tfoot>
+    </table>
+
+    <a class="a-cleanup" asp-controller="Order" asp-action="Checkout">
+        <div class="btn btn-success float-end mr-5"> <i class="fa-solid fa-angles-right"></i>Checkout </div>
+    </a>
+
+    <a class="a-cleanup" asp-controller="Cart" asp-action="ClearCart">
+        <div class="btn btn-danger float-end mr-5"> <i class="fa-solid fa-trash"></i>Empty Cart </div>
+    </a>
+
+    
+}
+else
+{
+    <h3 class="text-center"> Cart is empty</h3>
+
+}

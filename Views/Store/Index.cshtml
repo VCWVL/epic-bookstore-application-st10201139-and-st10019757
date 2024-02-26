@@ -18,7 +18,7 @@
                     </div>
                     <div class="card-body d-flex justify-content-between">
                         <span class="card-text">@item.Price.ToString("c")</span>
-                        <a asp-route="@item.Id" class="btn btn-primary store-btn"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href="@Url.Action("AddToCart", "Cart", new { id = item.Id })" class="btn btn-primary store-btn"><i class="fa-solid fa-cart-shopping"></i></a>
                     </div>
 
 

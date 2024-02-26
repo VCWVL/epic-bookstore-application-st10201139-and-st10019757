@@ -1,0 +1,56 @@
+﻿@model EpicBookstoreSprint.Models.Order
+
+<h1>Thank you for your Order</h1>
+
+<h5 class="mt-5" >Order Id: @Model.Id</h5>
+
+    <table class="table">
+        <thread>
+            <tr>
+                <th></th>
+                <th>Book</th>
+                <th>Price</th>
+                <th>Quantity</th>
+
+            </tr>
+
+        </thread>
+        <tbody>
+            @foreach (var item in Model.OrderItems)
+            {
+                var itemTotal = item.books.Price * item.Quantity;
+                <tr>
+                    <td>
+                        <a class="a-cleanup" asp-controller="Store" asp-action="Details" asp-route-id="@item.Id"><img src="data:image/png;base64,@Convert.ToBase64String(item.books.ImageData)" alt="Book Image" class="small-book-image"> </a>
+                    </td>
+                    <td>
+                        <a class="a-cleanup" asp-controller="Store" asp-action="Details" asp-route-id="@item.Id">@item.books.Title </a>
+                    </td>
+                    <td>
+                    @itemTotal.ToString("c");
+                    </td>
+                    <td>
+                        @item.Quantity
+                    </td>
+                  
+                </tr>
+            }
+
+
+        </tbody>
+        <tfoot>
+        <td></td>
+        <td class="text-right">
+            <strong> Total</strong>
+
+        </td>
+        <td>
+            <strong>@Model?.OrderTotal.ToString("c")</strong>
+        </td>
+        <td></td>
+        
+
+        </tfoot>
+    </table>
+
+

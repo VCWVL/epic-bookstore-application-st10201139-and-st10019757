@@ -59,7 +59,7 @@
             </dl>
         </div>
         <div>
-            <a asp-action="" asp-route-id="@Model?.Id" class="btn btn-primary store-btn ">Add to cart</a> |
+            <a asp-controller="Cart" asp-action="AddToCart" asp-route-id="@Model?.Id" class="btn btn-primary store-btn ">Add to cart</a> |
             <a asp-action="Index" class="btn btn-warning"><i class="fa-solid fa-arrow-left"></i> Back</a>
         </div>
 
