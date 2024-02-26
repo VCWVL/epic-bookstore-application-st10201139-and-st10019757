@@ -14,12 +14,32 @@ namespace EpicBookstoreSprint.Controllers
         }
 
         // GET: Books
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string SearchString, string minPrice, string maxPrice)
         {
-            return _context.Book != null ?
-                        View(await _context.Book.ToListAsync()) :
-                        Problem("Entity set 'EpicBookstoreContext.Book'  is null.");
+            var books = _context.Book.Select(b => b);
+
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                books = books.Where(b => b.Title.Contains(SearchString) || b.Author.Contains(SearchString));
+            }
+
+            if (!string.IsNullOrEmpty(minPrice))
+            {
+                var min = int.Parse(minPrice);
+                books = books.Where(b => b.Price >= min);
+            }
+
+            if (!string.IsNullOrEmpty(maxPrice))
+            {
+                var max = int.Parse(maxPrice);
+                books = books.Where(b => b.Price <= max);
+            }
+
+            var filteredBooks = await books.ToListAsync();
+
+            return filteredBooks != null ? View(filteredBooks) : Problem("Entity set 'EpicBookstoreContext.Book' is null.");
         }
+
 
         // GET: Books/Details/5
         public async Task<IActionResult> Details(int? id)

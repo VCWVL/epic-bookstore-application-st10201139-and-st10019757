@@ -6,6 +6,25 @@
 
 <h2 class="my-4">Store</h2>
 
+<form asp-action="Index" class="col-2 my-1 p-2">
+    <div>
+        Filter search
+        <div class="my-1">
+            <input type="text" name="searchString" placeholder="Title or Author" class="form-control-sm col-12" />
+        </div>
+        <div class="my-1">
+            <div class="d-flex">
+                <input type="number" name="minPrice" step="1" placeholder="$Min" class="form-control-sm col-5 mr-1" />
+                <span>&#8212;</span>
+                <input type="number" name="maxPrice" step="1" placeholder="$Max" class="form-control-sm col-5 ml-1" />
+            </div>
+        </div>
+        <input type="submit" value="Filter" class="btn btn-primary btn-sm" />
+        <a asp-action="Index" class="btn btn-secondary btn-sm float-end">Clear</a>
+    </div>
+</form>
+
+
 <div class="row">
     @foreach (var item in Model)
     {
