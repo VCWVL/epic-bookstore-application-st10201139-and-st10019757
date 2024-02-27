@@ -23,22 +23,21 @@ namespace EpicBookstoreSprint.Controllers
                 books = books.Where(b => b.Title.Contains(SearchString) || b.Author.Contains(SearchString));
             }
 
-            if (!string.IsNullOrEmpty(minPrice))
+            if (!string.IsNullOrEmpty(minPrice) && int.TryParse(minPrice, out var min))
             {
-                var min = int.Parse(minPrice);
                 books = books.Where(b => b.Price >= min);
             }
 
-            if (!string.IsNullOrEmpty(maxPrice))
+            if (!string.IsNullOrEmpty(maxPrice) && int.TryParse(maxPrice, out var max))
             {
-                var max = int.Parse(maxPrice);
                 books = books.Where(b => b.Price <= max);
             }
 
             var filteredBooks = await books.ToListAsync();
 
-            return filteredBooks != null ? View(filteredBooks) : Problem("Entity set 'EpicBookstoreContext.Book' is null.");
+            return filteredBooks.Any() ? View(filteredBooks) : Problem("No books found matching the criteria.");
         }
+
 
 
         // GET: Books/Details/5
