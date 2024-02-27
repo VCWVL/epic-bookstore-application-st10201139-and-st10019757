@@ -15,7 +15,7 @@ namespace EpicBookstoreSprint.Controllers
     public class BooksController : Controller
     {
         private readonly EpicBookstoreContext _context;
-
+        // Constructor to inject the database context
         public BooksController(EpicBookstoreContext context)
         {
             _context = context;
@@ -24,7 +24,8 @@ namespace EpicBookstoreSprint.Controllers
         // GET: Books
         public async Task<IActionResult> Index()
         {
-              return _context.Book != null ? 
+            // Check if the entity set 'EpicBookstoreContext.Book' is null
+            return _context.Book != null ? 
                           View(await _context.Book.ToListAsync()) :
                           Problem("Entity set 'EpicBookstoreContext.Book'  is null.");
         }
@@ -60,22 +61,25 @@ namespace EpicBookstoreSprint.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create( Books books, IFormFile imageFile)
         {
+            // Check if the model state is valid
             if (ModelState.IsValid)
             {
                 if (imageFile != null && imageFile.Length > 0)
                 {
+                    // Read the image file and store it in the Books model
                     using (var memoryStream = new MemoryStream())
                     {
                         await imageFile.CopyToAsync(memoryStream);
                         books.ImageData = memoryStream.ToArray();
                     }
                 }
-
+                // Add the new book to the context and save changes to the database
                 _context.Add(books);
                 await _context.SaveChangesAsync();
+                // Redirect to the Index view
                 return RedirectToAction(nameof(Index));
             }
-
+            // If the model state is not valid, return to the Create view with the entered data
             return View(books);
         }
 
@@ -102,15 +106,17 @@ namespace EpicBookstoreSprint.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, Books books, IFormFile imageFile)
         {
+            // Check if the provided id matches the book's id
             if (id != books.Id)
             {
                 return NotFound();
             }
-
+            // Check if the model state is valid
             if (ModelState.IsValid)
             {
                 try
                 {
+                    // Check if an image file is provided
                     if (imageFile != null && imageFile.Length > 0)
                     {
                         using (var memoryStream = new MemoryStream())
@@ -119,12 +125,13 @@ namespace EpicBookstoreSprint.Controllers
                             books.ImageData = memoryStream.ToArray();
                         }
                     }
-
+                    // Update the book in the context and save changes to the database
                     _context.Update(books);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
+                    // Check for concurrency exception
                     if (!BooksExists(books.Id))
                     {
                         return NotFound();

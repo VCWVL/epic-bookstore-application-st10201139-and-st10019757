@@ -504,3 +504,11 @@ C:\Users\munsa\source\repos\epic-bookstore-application-st10201139-and-st10019757
 C:\Users\munsa\source\repos\epic-bookstore-application-st10201139-and-st10019757\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\munsa\source\repos\epic-bookstore-application-st10201139-and-st10019757\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\munsa\source\repos\epic-bookstore-application-st10201139-and-st10019757\obj\Debug\net6.0\EpicBookstoreSprint.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\travi\source\repos\EpicBookstoreSprint\obj\Debug\net6.0\EpicBookstoreSprint.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\travi\source\repos\EpicBookstoreSprint\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\travi\source\repos\EpicBookstoreSprint\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\travi\source\repos\EpicBookstoreSprint\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\travi\source\repos\EpicBookstoreSprint\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\travi\source\repos\EpicBookstoreSprint\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\travi\source\repos\EpicBookstoreSprint\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\travi\source\repos\EpicBookstoreSprint\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
