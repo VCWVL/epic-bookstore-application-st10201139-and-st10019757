@@ -34,3 +34,41 @@ a-cleanup:hover{
     max-height: 50px; /* Adjust the value to your preference */
     /* You can also use width and height properties if you want fixed dimensions */
 }
+
+input[type=number] ::-webkit-inner-spin-button,
+input[type=number] ::-webkit-outer-spin-button{
+
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* styles.css */
+.filter-container {
+    margin: 10px; /* Adjust the margin as needed */
+}
+
+    .filter-container input[type="text"],
+    .filter-container input[type="number"] {
+        margin-bottom: 5px; /* Adjust the margin as needed */
+    }
+
+    .filter-container .price-input-group {
+        display: flex;
+    }
+
+        .filter-container .price-input-group input[type="number"] {
+            flex: 1;
+        }
+
+        .filter-container .price-input-group span {
+            margin: 0 5px; /* Adjust the margin as needed */
+        }
+
+    .filter-container .btn-clear {
+        float: right;
+    }
+
+    /* Added style for the filter button */
+    .filter-container button {
+        cursor: pointer;
+    }
