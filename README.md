@@ -7,13 +7,7 @@ The primary focus is on implementing essential features for user registration, p
 ## Table of Contents
 - [Requirements](#requirements)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Features](#features)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Requirements
 The online store meets the following requirements:
 
