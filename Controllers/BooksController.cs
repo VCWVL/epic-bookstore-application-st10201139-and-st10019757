@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using EpicBookstoreSprint.Data;
 using EpicBookstoreSprint.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EpicBookstoreSprint.Controllers
 {
+   
     public class BooksController : Controller
     {
         private readonly EpicBookstoreContext _context;

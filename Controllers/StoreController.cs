@@ -20,7 +20,7 @@ namespace EpicBookstoreSprint.Controllers
                         View(await _context.Book.ToListAsync()) :
                         Problem("Entity set 'EpicBookstoreContext.Book'  is null.");
         }
-
+     
         // GET: Books/Details/5
         public async Task<IActionResult> Details(int? id)
         {

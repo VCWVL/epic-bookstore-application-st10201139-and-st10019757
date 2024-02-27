@@ -1,9 +1,11 @@
 ﻿using EpicBookstoreSprint.Data;
 using EpicBookstoreSprint.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EpicBookstoreSprint.Controllers
 {
+    [Authorize]
     public class CartController : Controller
     {
         private readonly EpicBookstoreContext _context;

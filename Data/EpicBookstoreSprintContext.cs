@@ -4,10 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using EpicBookstoreSprint.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace EpicBookstoreSprint.Data
 {
-    public class EpicBookstoreContext : DbContext
+    public class EpicBookstoreContext : IdentityDbContext<DefaultUser>
     {
         public EpicBookstoreContext (DbContextOptions<EpicBookstoreContext> options)
             : base(options)
