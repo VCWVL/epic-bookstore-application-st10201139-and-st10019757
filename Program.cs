@@ -5,10 +5,11 @@ using EpicBookstoreSprint.Models;
 using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddDbContext<EpicBookstoreContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("EpicBookstoreSprintContext") ?? throw new InvalidOperationException("Connection string 'EpicBookstoreSprintContext' not found.")));
 
-builder.Services.AddDefaultIdentity<DefaultUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddDefaultIdentity<DefaultUser>(options => options.SignIn.RequireConfirmedAccount = false)
   .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<EpicBookstoreContext>();
 
@@ -47,6 +48,13 @@ app.UseAuthentication(); ;
 app.UseAuthorization();
 
 app.UseSession();
+
+// Initialize database and seed roles and users
+using (var scope = app.Services.CreateScope())
+{
+    var serviceProvider = scope.ServiceProvider;
+    UserRoleInitializer.InitializeAsync(serviceProvider).Wait();
+}
 
 app.MapControllerRoute(
     name: "default",

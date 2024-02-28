@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace EpicBookstoreSprint.Controllers
 {
-   
+    [Authorize(Roles = "Admin")]
     public class BooksController : Controller
     {
         private readonly EpicBookstoreContext _context;

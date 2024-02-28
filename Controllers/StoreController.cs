@@ -1,11 +1,14 @@
 ﻿using EpicBookstoreSprint.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace EpicBookstoreSprint.Controllers
 {
+    [AllowAnonymous]
     public class StoreController : Controller
     {
+       
         private readonly EpicBookstoreContext _context;
         // Constructor to inject the database context
         public StoreController(EpicBookstoreContext context)

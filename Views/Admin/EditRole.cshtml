@@ -29,11 +29,11 @@
         <table class="table table-striped col-md-8">
             @if (Model.Users.Any())
             {
-                @foreach (var user in Model.Users)
+                @foreach (var userName in Model.Users)
                 {
                     <tr>
                         <td class="form-label">
-                            @user
+                            @userName
                         </td>
                     </tr>
                 }
