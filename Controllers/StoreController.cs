@@ -37,13 +37,7 @@ namespace EpicBookstoreSprint.Controllers
 
             return filteredBooks.Any() ? View(filteredBooks) : Problem("No books found matching the criteria.");
         }
-<<<<<<< HEAD
-     
-=======
 
-
-
->>>>>>> 2c6f31738d3409b3a30e1ba7690dde686caee973
         // GET: Books/Details/5
         public async Task<IActionResult> Details(int? id)
         {

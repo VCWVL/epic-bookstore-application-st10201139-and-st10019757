@@ -9,7 +9,7 @@ builder.Services.AddDbContext<EpicBookstoreContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("EpicBookstoreSprintContext") ?? throw new InvalidOperationException("Connection string 'EpicBookstoreSprintContext' not found.")));
 
 builder.Services.AddDefaultIdentity<DefaultUser>(options => options.SignIn.RequireConfirmedAccount = true)
-  
+  .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<EpicBookstoreContext>();
 
 // Add services to the container.
