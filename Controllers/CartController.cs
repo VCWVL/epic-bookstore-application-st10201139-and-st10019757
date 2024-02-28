@@ -10,21 +10,21 @@ namespace EpicBookstoreSprint.Controllers
     {
         private readonly EpicBookstoreContext _context;
         private readonly Cart _cart;
-
+        // Constructor to inject the database context and Cart service
         public CartController(EpicBookstoreContext context,Cart cart)
         {
             _context = context;
             _cart = cart;
         }
 
-
+        // Display the items in the cart
         public IActionResult Index()
         {
             var items = _cart.GetCartItems();
             _cart.cartItems = items;
             return View(_cart);
         }
-
+        // Add a book to the cart
         public IActionResult  AddToCart(int id)
         {
             var selectedbook = GetBookById(id);
@@ -33,11 +33,12 @@ namespace EpicBookstoreSprint.Controllers
             {
                 _cart.AddToCart(selectedbook, 1);
             }
+            // Redirect to the Store's Index view after adding to the cart
             return RedirectToAction("Index", "Store");
         }
 
-       
-          public IActionResult RemoveFromCart(int id)
+        // Remove a book from the cart
+        public IActionResult RemoveFromCart(int id)
         {
             var selectedBook = GetBookById(id); 
 
@@ -46,11 +47,11 @@ namespace EpicBookstoreSprint.Controllers
                 _cart.RemoveFromCart(selectedBook);
 
             }
-
+            // Redirect to the cart's Index view after removing from the cart
             return RedirectToAction("Index");
         }
-      
-         public IActionResult ReduceQuantity(int id)
+        // Reduce the quantity of a book in the cart
+        public IActionResult ReduceQuantity(int id)
         {
             var selectedBook = GetBookById(id);
 
@@ -59,10 +60,10 @@ namespace EpicBookstoreSprint.Controllers
                 _cart.ReduceQuantity(selectedBook);
 
             }
-
+            // Redirect to the cart's Index view after reducing the quantity
             return RedirectToAction("Index");
         }
-
+        // Increase the quantity of a book in the cart
         public IActionResult IncreaseQuantity(int id)
         {
             var selectedBook = GetBookById(id);
@@ -75,7 +76,7 @@ namespace EpicBookstoreSprint.Controllers
 
             return RedirectToAction("Index");
         }
-
+        // Clear all items from the cart
         public IActionResult ClearCart()
         {
             _cart.ClearCart();
@@ -83,7 +84,7 @@ namespace EpicBookstoreSprint.Controllers
             return RedirectToAction("Index");
         }
 
-
+        // Get a book by its id from the database
         public Books GetBookById(int id)
         {
             return _context.Book.FirstOrDefault(b => b.Id == id);

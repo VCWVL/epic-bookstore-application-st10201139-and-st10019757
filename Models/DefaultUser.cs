@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EpicBookstoreSprint.Models
 {
+    // Represents the default user model with additional properties
     public class DefaultUser : IdentityUser
     {
         [PersonalData]

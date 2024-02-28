@@ -3,17 +3,20 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EpicBookstoreSprint.Models
 {
+    // Represents a shopping cart for books
     public class Cart
     {
         private readonly EpicBookstoreContext _context;
-
+        // Constructor that initializes the Cart with a context
         public Cart(EpicBookstoreContext context)
         {
             _context = context;
         }
+        // Unique identifier for the cart
         public string Id { get; set; }
+        // List of cart items representing the books in the cart
         public List<CartItems> cartItems { get; set; }
-
+        // Static method to retrieve the current cart using session and context
         public static Cart GetCart(IServiceProvider services)
         {
             ISession session = services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
@@ -26,13 +29,13 @@ namespace EpicBookstoreSprint.Models
 
             return new Cart(context) { Id = cartId };
         }
-
+        // Get a specific cart item based on the associated book
         public CartItems GetCart(Books book) 
         {
             return _context.CartItem.SingleOrDefault(ci =>
               ci.books.Id == book.Id && ci.CartId ==  Id);
         }
-
+        // Add a book to the cart or update quantity if already in the cart
         public void AddToCart(Books books, int quantity)
         {
             var cartItem = GetCart(books);
@@ -53,7 +56,7 @@ namespace EpicBookstoreSprint.Models
             }
             _context.SaveChanges();
         }
-
+        // Reduce the quantity of a specific book in the cart
         public int ReduceQuantity(Books books)
         {
             var items = GetCart(books);
@@ -75,8 +78,8 @@ namespace EpicBookstoreSprint.Models
 
             return remainingQuantity;
         }
-       
 
+        // Increase the quantity of a specific book in the cart
         public int IncreaseQuantity(Books books)
         {
             var items = GetCart(books);
@@ -92,7 +95,7 @@ namespace EpicBookstoreSprint.Models
             return newQuantity;
         }
 
-
+        // Remove a specific book from the cart
         public void RemoveFromCart(Books books)
         {
             var cartItem = GetCart(books);
@@ -104,7 +107,7 @@ namespace EpicBookstoreSprint.Models
 
             _context.SaveChanges();
         }
-
+        // Clear all items from the cart
         public void ClearCart()
         {
             var cartItems = _context.CartItem.Where(ci => ci.CartId == Id);
@@ -113,7 +116,7 @@ namespace EpicBookstoreSprint.Models
 
             _context.SaveChanges();
         }
-
+        // Get all cart items for display or further processing
         public List<CartItems> GetCartItems()
         {
             return cartItems ?? (cartItems = _context.CartItem
@@ -121,7 +124,7 @@ namespace EpicBookstoreSprint.Models
                 .Include(ci => ci.books)
                 .ToList());
         }
-
+        // Calculate and return the total price of all items in the cart
         public int GetCartTotal()
         {
             return _context.CartItem
