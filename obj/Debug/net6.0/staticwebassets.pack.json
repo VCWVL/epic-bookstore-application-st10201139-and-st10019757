@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\EpicBookstoreSprint.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\travi\\source\\repos\\EpicBookstoreSprint\\wwwroot\\Resources\\still-life-books-versus-technology.jpg",
+      "PackagePath": "staticwebassets\\Resources\\still-life-books-versus-technology.jpg"
+    },
+    {
       "Id": "C:\\Users\\travi\\source\\repos\\EpicBookstoreSprint\\wwwroot\\css\\MyCss.css",
       "PackagePath": "staticwebassets\\css\\MyCss.css"
     },

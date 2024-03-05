@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dphEPZDIJsioa/Usz+62ljKVdtASj55qnlpU9fY3PYA=",
+  "Hash": "UK9DLb2P6/RAT9ngVS0aTWsYLvwQa8pXocgsNmorrYs=",
   "Source": "EpicBookstoreSprint",
   "BasePath": "_content/EpicBookstoreSprint",
   "Mode": "Default",
@@ -38248,6 +38248,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\travi\\source\\repos\\EpicBookstoreSprint\\wwwroot\\Resources\\still-life-books-versus-technology.jpg",
+      "SourceId": "EpicBookstoreSprint",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\travi\\source\\repos\\EpicBookstoreSprint\\wwwroot\\",
+      "BasePath": "_content/EpicBookstoreSprint",
+      "RelativePath": "Resources/still-life-books-versus-technology.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resources\\still-life-books-versus-technology.jpg"
     }
   ]
 }
