@@ -72,3 +72,9 @@ input[type=number] ::-webkit-outer-spin-button{
     .filter-container button {
         cursor: pointer;
     }
+.limited-description {
+    max-width: 150px; /* Adjust as needed */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

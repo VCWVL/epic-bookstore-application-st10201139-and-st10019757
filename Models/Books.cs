@@ -13,7 +13,7 @@ namespace EpicBookstoreSprint.Models
         [Required]
         public string Title { get; set; }
         // Description of the book, with a maximum length of 100 characters
-        [MaxLength(100)]
+        
         public string Description { get; set; }
         // Language in which the book is written
         public string Language { get; set; }
