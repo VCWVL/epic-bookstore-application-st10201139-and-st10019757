@@ -183,5 +183,41 @@ namespace EpicBookstoreSprint.Controllers
             }
             return RedirectToAction(actionName: "EditRole", new { Id = id });
         }
+
+        [HttpGet]
+        public async Task<IActionResult> DeleteRole(string id)
+        {
+            var role = await _roleManager.FindByIdAsync(id);
+
+            return View(role);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ConfirmDelete(string id)
+        {
+            var role = await _roleManager.FindByIdAsync(id);
+
+            if (role == null)
+            {
+                ViewData["ErrorMessage"] = $"No Role with Id {id} Was found";
+                return View("Error");
+            }
+            else
+            {
+                var result = await _roleManager.DeleteAsync(role);
+
+                if(result.Succeeded)
+                {
+                    return RedirectToAction("ListAllRoles");
+                }
+
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
+
+                return View(role);
+            }
+        }
     }
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\EpicBookstoreSprint.csproj": {}
+    "C:\\Users\\travi\\source\\repos\\EpicBookstoreSprint\\EpicBookstoreSprint.csproj": {}
   },
   "projects": {
-    "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\EpicBookstoreSprint.csproj": {
+    "C:\\Users\\travi\\source\\repos\\EpicBookstoreSprint\\EpicBookstoreSprint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\EpicBookstoreSprint.csproj",
+        "projectUniqueName": "C:\\Users\\travi\\source\\repos\\EpicBookstoreSprint\\EpicBookstoreSprint.csproj",
         "projectName": "EpicBookstoreSprint",
-        "projectPath": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\EpicBookstoreSprint.csproj",
-        "packagesPath": "C:\\Users\\munsa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\obj\\",
+        "projectPath": "C:\\Users\\travi\\source\\repos\\EpicBookstoreSprint\\EpicBookstoreSprint.csproj",
+        "packagesPath": "C:\\Users\\travi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\travi\\source\\repos\\EpicBookstoreSprint\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\munsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\travi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,24 +78,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.19, 6.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.19, 6.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.19, 6.0.19]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.19, 6.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -105,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
