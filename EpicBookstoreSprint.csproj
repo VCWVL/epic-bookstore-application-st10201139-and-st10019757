@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\Resources\bg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="wwwroot\Resources\still-life-books-versus-technology.jpg" />
   </ItemGroup>
 
@@ -22,6 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="wwwroot\Resources\bg.png" />
     <Resource Include="wwwroot\Resources\still-life-books-versus-technology.jpg" />
   </ItemGroup>
 

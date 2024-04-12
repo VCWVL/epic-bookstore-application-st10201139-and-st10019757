@@ -7,17 +7,15 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/lib/fontawesome/css/all.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
     <link rel="stylesheet" href="~/css/MyCss.css" asp-append-version="true" />
-
-
-
     <link rel="stylesheet" href="~/EpicBookstoreSprint.styles.css" asp-append-version="true" />
 
-
+   
 </head>
-<body>
+<body style="background-color: #ebfcfc;">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light" style="background-color: #3492eb;">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">EpicBookstoreSprint</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -29,7 +27,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        
+
                         @if (User.IsInRole("Admin"))
                         {
                             <li class="nav-item">
@@ -40,16 +38,16 @@
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="ListAllRoles">Roles</a>
                             </li>
                         }
-                       
+
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Store" asp-action="Index">Store</a>
                         </li>
-                       
+
                     </ul>
                     <a class="nav-link text-dark float-end" asp-area="" asp-controller="Cart" asp-action="Index"><i class="fa-solid fa-cart-shopping"></i></a>
 
                 </div>
-                <partial name ="_LoginPartial"/>
+                <partial name="_LoginPartial" />
             </div>
         </nav>
     </header>
@@ -65,7 +63,7 @@
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

@@ -2,37 +2,39 @@
 @model IEnumerable<IdentityRole>
 
 @{
-    ViewData["Title"] = "All roles";
-
+    ViewData["Title"] = "All Roles";
 }
 
-<h1>All roles</h1>
+<div class="container mt-4">
+    <h1>All Roles</h1>
 
-<a class="btn btn-primary mb-2" asp-action="AddRole"><i class="fa-solid fa-users"></i> Add role</a>
+    <a class="btn btn-primary mb-3" asp-action="AddRole"><i class="fa-solid fa-users"></i> Add Role</a>
 
-@if(Model.Any()){
-    <table class="table col-3">
-        <thead>
-        <tr>
-            <td><h5>Role</h5></td>
-            <td></td>
-        </tr>
-        </thead>
-        @foreach (var role in Model )
-        {
-            <tbody>
+    @if (Model.Any())
+    {
+        <table class="table table-bordered">
+            <thead class="thead-dark">
                 <tr>
-                    <td>@role.Name</td>
-           <td class="text-center">
-                        <a href="@Url.Action("EditRole", new { id = role.Id })" class="btn btn-primary btn-sm"><i class="fa-solid fa-pen-to-square"></i></a>
-                        <a href="@Url.Action("DeleteRole", new { id = role.Id })" class="btn btn-danger btn-sm"> <i class="fa-solid fa-trash-can"></i> </a>
-           </td>
+                    <th scope="col">Role</th>
+                    <th scope="col" class="text-center">Actions</th>
                 </tr>
-
+            </thead>
+            <tbody>
+                @foreach (var role in Model)
+                {
+                    <tr>
+                        <td>@role.Name</td>
+                        <td class="text-center">
+                            <a href="@Url.Action("EditRole", new { id = role.Id })" class="btn btn-primary btn-sm" title="Edit"><i class="fa-solid fa-pen-to-square"></i></a>
+                            <a href="@Url.Action("DeleteRole", new { id = role.Id })" class="btn btn-danger btn-sm" title="Delete"><i class="fa-solid fa-trash-can"></i></a>
+                        </td>
+                    </tr>
+                }
             </tbody>
-        }
-    </table>
-}
-else{
-    <h5> No roles yet, use button above to add your first role </h5>
-}
+        </table>
+    }
+    else
+    {
+        <h5>No roles yet. Use the button above to add your first role.</h5>
+    }
+</div>

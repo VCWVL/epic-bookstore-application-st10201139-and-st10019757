@@ -490,7 +490,6 @@ C:\Users\munsa\source\repos\epic-bookstore-application-st10201139-and-st10019757
 C:\Users\munsa\source\repos\epic-bookstore-application-st10201139-and-st10019757\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\munsa\source\repos\epic-bookstore-application-st10201139-and-st10019757\obj\Debug\net6.0\scopedcss\bundle\EpicBookstoreSprint.styles.css
 C:\Users\munsa\source\repos\epic-bookstore-application-st10201139-and-st10019757\obj\Debug\net6.0\scopedcss\projectbundle\EpicBookstoreSprint.bundle.scp.css
-C:\Users\munsa\source\repos\epic-bookstore-application-st10201139-and-st10019757\obj\Debug\net6.0\EpicBookstoreSprint.csproj.CopyComplete
 C:\Users\munsa\source\repos\epic-bookstore-application-st10201139-and-st10019757\obj\Debug\net6.0\EpicBookstoreSprint.dll
 C:\Users\munsa\source\repos\epic-bookstore-application-st10201139-and-st10019757\obj\Debug\net6.0\refint\EpicBookstoreSprint.dll
 C:\Users\munsa\source\repos\epic-bookstore-application-st10201139-and-st10019757\obj\Debug\net6.0\EpicBookstoreSprint.pdb
@@ -512,3 +511,5 @@ C:\Users\travi\source\repos\EpicBookstoreSprint\bin\Debug\net6.0\Microsoft.AspNe
 C:\Users\travi\source\repos\EpicBookstoreSprint\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\travi\source\repos\EpicBookstoreSprint\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\travi\source\repos\EpicBookstoreSprint\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\munsa\source\repos\epic-bookstore-application-st10201139-and-st10019757\obj\Debug\net6.0\EpicBookstoreSprint.sourcelink.json
+C:\Users\munsa\source\repos\epic-bookstore-application-st10201139-and-st10019757\obj\Debug\net6.0\EpicBook.74E5A332.Up2Date

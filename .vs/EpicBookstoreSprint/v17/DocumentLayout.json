@@ -1,0 +1,757 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\wwwroot\\css\\mycss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:wwwroot\\css\\mycss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\admin\\listallroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\admin\\listallroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\store\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\store\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\migrations\\20240305170146_updatebooksmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:migrations\\20240305170146_updatebooksmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\admin\\deleterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\admin\\deleterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\admin\\editusersinrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\admin\\editusersinrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\viewmodels\\userroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:viewmodels\\userroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\viewmodels\\editroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:viewmodels\\editroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\models\\userroleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:models\\userroleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\areas\\identity\\pages\\account\\confirmemail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:areas\\identity\\pages\\account\\confirmemail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\admin\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\admin\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\viewmodels\\addroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:viewmodels\\addroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\migrations\\20240225144406_cartmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:migrations\\20240225144406_cartmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\migrations\\20240224124715_booksmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:migrations\\20240224124715_booksmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\migrations\\20240224132310_imageuploadmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:migrations\\20240224132310_imageuploadmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\migrations\\20240224134347_updateimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:migrations\\20240224134347_updateimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\migrations\\20240224133836_imagecorrection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:migrations\\20240224133836_imagecorrection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\migrations\\20240224183237_anotherimageupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:migrations\\20240224183237_anotherimageupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\migrations\\20240224185124_thirdmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:migrations\\20240224185124_thirdmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\migrations\\20240224193050_formfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:migrations\\20240224193050_formfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\migrations\\20240224194200_removedmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:migrations\\20240224194200_removedmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|c:\\users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\views\\admin\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F795C3-1744-4255-AA90-1C157D8D0278}|EpicBookstoreSprint.csproj|solutionrelative:views\\admin\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-06T07:15:54.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "Views\\Books\\Create.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABUAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Store\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Store\\Index.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Store\\Index.cshtml",
+              "RelativeToolTip": "Views\\Store\\Index.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAmwBIAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Store\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Store\\Details.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Store\\Details.cshtml",
+              "RelativeToolTip": "Views\\Store\\Details.cshtml",
+              "ViewState": "AQIAACYAAAAAAAAAAAAmwDcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyCss.css",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\wwwroot\\css\\MyCss.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\MyCss.css",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\wwwroot\\css\\MyCss.css",
+              "RelativeToolTip": "wwwroot\\css\\MyCss.css",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAFUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-05T19:52:51.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StyleSheet.css",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\wwwroot\\css\\StyleSheet.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\StyleSheet.css",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\wwwroot\\css\\StyleSheet.css",
+              "RelativeToolTip": "wwwroot\\css\\StyleSheet.css",
+              "ViewState": "AQIAABs1AAAAAAAAAAAAwFg1AAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-05T20:06:47.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListAllRoles.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Admin\\ListAllRoles.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ListAllRoles.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Admin\\ListAllRoles.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ListAllRoles.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAL4AAAAAAAAAAAAAANYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "Views\\Books\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Books.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Models\\Books.cs",
+              "RelativeDocumentMoniker": "Models\\Books.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Models\\Books.cs",
+              "RelativeToolTip": "Models\\Books.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Order\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Order\\Checkout.cshtml",
+              "RelativeToolTip": "Views\\Order\\Checkout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240305170146_updateBooksMig.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240305170146_updateBooksMig.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240305170146_updateBooksMig.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240305170146_updateBooksMig.cs",
+              "RelativeToolTip": "Migrations\\20240305170146_updateBooksMig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserRoleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\ViewModels\\UserRoleViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\UserRoleViewModel.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\ViewModels\\UserRoleViewModel.cs",
+              "RelativeToolTip": "ViewModels\\UserRoleViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DeleteRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Admin\\DeleteRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\DeleteRole.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Admin\\DeleteRole.cshtml",
+              "RelativeToolTip": "Views\\Admin\\DeleteRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EditRoleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\ViewModels\\EditRoleViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\EditRoleViewModel.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\ViewModels\\EditRoleViewModel.cs",
+              "RelativeToolTip": "ViewModels\\EditRoleViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EditUsersInRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Admin\\EditUsersInRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditUsersInRole.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Admin\\EditUsersInRole.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditUsersInRole.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserRoleInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Models\\UserRoleInitializer.cs",
+              "RelativeDocumentMoniker": "Models\\UserRoleInitializer.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Models\\UserRoleInitializer.cs",
+              "RelativeToolTip": "Models\\UserRoleInitializer.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAwCEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EditRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Admin\\EditRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditRole.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Admin\\EditRole.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditRole.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StoreController.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Controllers\\StoreController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StoreController.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Controllers\\StoreController.cs",
+              "RelativeToolTip": "Controllers\\StoreController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ConfirmEmail.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Admin\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Error.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Admin\\Error.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AddRoleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\ViewModels\\AddRoleViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AddRoleViewModel.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\ViewModels\\AddRoleViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AddRoleViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AddRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Admin\\AddRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\AddRole.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Admin\\AddRole.cshtml",
+              "RelativeToolTip": "Views\\Admin\\AddRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20240225144406_CartMig.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240225144406_CartMig.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240225144406_CartMig.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240225144406_CartMig.cs",
+              "RelativeToolTip": "Migrations\\20240225144406_CartMig.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Details.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "Views\\Books\\Details.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Books\\Edit.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAC4AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Books\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Views\\Books\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Books\\Delete.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T19:52:51.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20240224193050_formFile.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240224193050_formFile.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240224193050_formFile.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240224193050_formFile.cs",
+              "RelativeToolTip": "Migrations\\20240224193050_formFile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20240224194200_removedMap.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240224194200_removedMap.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240224194200_removedMap.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240224194200_removedMap.cs",
+              "RelativeToolTip": "Migrations\\20240224194200_removedMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20240224124715_BooksMig.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240224124715_BooksMig.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240224124715_BooksMig.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240224124715_BooksMig.cs",
+              "RelativeToolTip": "Migrations\\20240224124715_BooksMig.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20240224183237_anotherImageUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240224183237_anotherImageUpdate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240224183237_anotherImageUpdate.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240224183237_anotherImageUpdate.cs",
+              "RelativeToolTip": "Migrations\\20240224183237_anotherImageUpdate.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20240224134347_updateImage.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240224134347_updateImage.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240224134347_updateImage.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240224134347_updateImage.cs",
+              "RelativeToolTip": "Migrations\\20240224134347_updateImage.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20240224185124_thirdMig.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240224185124_thirdMig.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240224185124_thirdMig.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240224185124_thirdMig.cs",
+              "RelativeToolTip": "Migrations\\20240224185124_thirdMig.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20240224132310_ImageUploadMig.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240224132310_ImageUploadMig.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240224132310_ImageUploadMig.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240224132310_ImageUploadMig.cs",
+              "RelativeToolTip": "Migrations\\20240224132310_ImageUploadMig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20240224133836_ImageCorrection.cs",
+              "DocumentMoniker": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240224133836_ImageCorrection.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240224133836_ImageCorrection.cs",
+              "ToolTip": "C:\\Users\\munsa\\source\\repos\\epic-bookstore-application-st10201139-and-st10019757\\Migrations\\20240224133836_ImageCorrection.cs",
+              "RelativeToolTip": "Migrations\\20240224133836_ImageCorrection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T19:52:51.763Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
